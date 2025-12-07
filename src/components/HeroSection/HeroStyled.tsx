@@ -84,6 +84,7 @@ export const HeroStyled = styled.section`
       font-weight: 600;
       position: relative;
       display: inline-block;
+      min-height: 3.5rem;
       
       &::after {
         content: '';
@@ -95,6 +96,19 @@ export const HeroStyled = styled.section`
         background: var(--gradient-secondary);
         animation: expandWidth 1s ease-out 0.6s backwards;
       }
+    }
+    
+    .typewriter {
+      .cursor {
+        animation: blink 1s step-end infinite;
+        color: var(--primary-color);
+        font-weight: 300;
+      }
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
     
     @keyframes expandWidth {
