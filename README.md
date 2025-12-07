@@ -98,8 +98,8 @@ Portfolio-project-dev/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/stranger0407/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies**
@@ -292,5 +292,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 Made with ❤️ by [Raja Jha](https://github.com/Raja-Simform)
 
 </div>
-#   P o r t f o l i o  
+#   P o r t f o l i o 
+ 
  
