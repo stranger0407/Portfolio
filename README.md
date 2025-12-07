@@ -37,18 +37,22 @@ A modern, responsive portfolio website showcasing projects, skills, and professi
 ## 🛠️ Tech Stack
 
 ### Core
+
 - **React 19.1.0** - UI library
 - **TypeScript 5.8.3** - Type safety
 - **Vite 6.3.5** - Build tool & dev server
 
 ### Styling & Animation
+
 - **Styled Components 6.1.17** - CSS-in-JS styling
 - **Framer Motion 12.10.0** - Animation library
 
 ### Form & Communication
+
 - **Web3Forms** - Contact form service (no backend required)
 
 ### Code Quality
+
 - **ESLint 9.17.0** - Code linting
 - **TypeScript ESLint** - TypeScript-specific linting
 
@@ -60,33 +64,33 @@ A modern, responsive portfolio website showcasing projects, skills, and professi
 Portfolio-project-dev/
 ├── public/
 │   ├── robots.txt           # SEO crawler directives
-│   └── sitemap.xml           # Site map for search engines
+│   └── sitemap.xml          # Site map for search engines
 ├── src/
-│   ├── assets/               # Images, icons, and static files
+│   ├── assets/              # Images, icons, and static files
 │   ├── components/
-│   │   ├── About/            # About section
-│   │   ├── Contact/          # Contact section with form
-│   │   ├── ErrorBoundary/    # Error handling component
-│   │   ├── Form/             # Contact form component
-│   │   ├── HeaderSection/    # Header & navigation
-│   │   ├── HeroSection/      # Hero/landing section
-│   │   ├── Loading/          # Loading screen
-│   │   ├── Projects/         # Projects showcase
-│   │   ├── Skills/           # Skills display
-│   │   └── ...               # Other UI components
-│   ├── constants/            # App constants and data
-│   │   ├── AboutConstant.ts  # About section data
+│   │   ├── About/           # About section
+│   │   ├── Contact/         # Contact section with form
+│   │   ├── ErrorBoundary/   # Error handling component
+│   │   ├── Form/            # Contact form component
+│   │   ├── HeaderSection/   # Header & navigation
+│   │   ├── HeroSection/     # Hero/landing section
+│   │   ├── Loading/         # Loading screen
+│   │   ├── Projects/        # Projects showcase
+│   │   ├── Skills/          # Skills display
+│   │   └── ...              # Other UI components
+│   ├── constants/           # App constants and data
+│   │   ├── AboutConstant.ts # About section data
 │   │   └── ProjectConstant.ts # Projects data
-│   ├── App.tsx               # Main app component
-│   ├── main.tsx              # App entry point
-│   └── index.css             # Global styles
-├── .env                      # Environment variables (not in git)
-├── .env.example              # Environment variables template
-├── .gitignore                # Git ignore rules
-├── index.html                # HTML entry point
-├── package.json              # Dependencies
-├── tsconfig.json             # TypeScript config
-└── vite.config.ts            # Vite configuration
+│   ├── App.tsx              # Main app component
+│   ├── main.tsx             # App entry point
+│   └── index.css            # Global styles
+├── .env                     # Environment variables (not in git)
+├── .env.example             # Environment variables template
+├── .gitignore               # Git ignore rules
+├── index.html               # HTML entry point
+├── package.json             # Dependencies
+├── tsconfig.json            # TypeScript config
+└── vite.config.ts           # Vite configuration
 ```
 
 ---
@@ -101,33 +105,38 @@ Portfolio-project-dev/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/stranger0407/Portfolio.git
    cd Portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
+
    ```bash
    cp .env.example .env
    ```
-   
+
    Edit `.env` and add your Web3Forms access key:
+
    ```env
    VITE_WEB3FORMS_ACCESS_KEY=your_access_key_here
    ```
-   
+
    Get your free access key at [web3forms.com](https://web3forms.com)
 
 4. **Start development server**
+
    ```bash
    npm run dev
    ```
-   
+
    Open [http://localhost:5173](http://localhost:5173) in your browser
 
 ---
@@ -208,15 +217,18 @@ This portfolio uses **Web3Forms** for the contact form:
 ### Deploy to Netlify
 
 1. Build the project:
+
    ```bash
    npm run build
    ```
+
 2. Deploy the `dist` folder to Netlify
 3. Add environment variables in Netlify dashboard
 
 ### Other Platforms
 
 The portfolio can be deployed to any static hosting service:
+
 - GitHub Pages
 - Cloudflare Pages
 - Firebase Hosting
@@ -272,7 +284,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - 🌐 Portfolio: [Your Portfolio URL]
 - 💼 LinkedIn: [linkedin.com/in/raja](https://linkedin.com/in/raja)
-- 🐙 GitHub: [github.com/Raja-Simform](https://github.com/Raja-Simform)
+- 🐙 GitHub: [github.com/stranger0407](https://github.com/stranger0407)
 - 📧 Email: rgjha2001@gmail.com
 - 🏙️ Location: Pune, India
 
@@ -293,8 +305,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ### ⭐ Star this repo if you found it helpful!
 
-Made with ❤️ by [Raja Jha](https://github.com/Raja-Simform)
+Made with ❤️ by [Raja Jha](https://github.com/stranger0407)
 
 </div>
- 
- 
