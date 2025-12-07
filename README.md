@@ -7,7 +7,11 @@
 ![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/Styled_Components-6.1.17-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
+<br/>
+
 A modern, responsive portfolio website showcasing projects, skills, and professional experience with stunning animations and seamless user experience.
+
+<br/>
 
 [Live Demo](#) • [Report Bug](#) • [Request Feature](#)
 
